@@ -44,7 +44,7 @@ resources:
       service-plan: application
       path: ./xs-security.json
       config:
-        xsappname: ctmscap01-${org}-${space}
+        xsappname: ctmscap01-auth
         tenant-mode: dedicated
   - name: ctmscap01-db
     type: com.sap.xs.hdi-container
