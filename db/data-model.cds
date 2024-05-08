@@ -16,3 +16,10 @@ entity Books3 {
   title  : String;
   stock  : Integer;
 }
+
+entity Books4 {
+  key ID : Integer;
+  title  : String;
+  stock  : Integer;
+  descr : String;
+}
